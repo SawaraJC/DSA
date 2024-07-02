@@ -1,16 +1,23 @@
 class Solution {
     public void rotate(int[] nums, int k) {
         int n = nums.length;
-        int[] tempArray = new int[n];
+        k = k % n; // Handle cases where k is greater than the length of the array
 
-        // Copy the original array to tempArray
-        for (int i = 0; i < n; i++) {
-            tempArray[i] = nums[i];
-        }
+        // Reverse the entire array
+        reverse(nums, 0, n - 1);
+        // Reverse the first k elements
+        reverse(nums, 0, k - 1);
+        // Reverse the remaining elements
+        reverse(nums, k, n - 1);
+    }
 
-        // Update nums with rotated values
-        for (int i = 0; i < n; i++) {
-            nums[(i + k) % n] = tempArray[i];
+    private void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
         }
     }
 }
