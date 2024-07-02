@@ -3,10 +3,10 @@ class Solution {
         int buy = Integer.MAX_VALUE;
         int sell = 0;
 
-        for (int i=0; i<prices.length; i++){
-            buy = Math.min(buy, prices[i]);
-            sell = Math.max(sell, prices[i]-buy);
-        }   
+        for(int price: prices){
+            buy = Math.min(buy, price);
+            sell = Math.max(sell, Math.abs(buy-price));
+        }
 
         return sell;
     }
