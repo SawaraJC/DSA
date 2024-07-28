@@ -5,7 +5,7 @@ class Solution {
 
         for(int price: prices){
             buy = Math.min(buy, price);
-            sell = Math.max(sell, Math.abs(buy-price));
+            sell = Math.max(sell, price-buy);
         }
 
         return sell;
