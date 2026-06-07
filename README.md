@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0242-valid-anagram](https://github.com/SawaraJC/DSA/tree/main/0242-valid-anagram/) | Easy |
 | [0389-find-the-difference](https://github.com/SawaraJC/DSA/tree/main/0389-find-the-difference/) | Easy |
+| [1502-can-make-arithmetic-progression-from-sequence](https://github.com/SawaraJC/DSA/tree/main/1502-can-make-arithmetic-progression-from-sequence/) | Easy |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1502-can-make-arithmetic-progression-from-sequence](https://github.com/SawaraJC/DSA/tree/main/1502-can-make-arithmetic-progression-from-sequence/) | Easy |
 | [1822-sign-of-the-product-of-an-array](https://github.com/SawaraJC/DSA/tree/main/1822-sign-of-the-product-of-an-array/) | Easy |
 ## Math
 | Problem Name | Difficulty |
