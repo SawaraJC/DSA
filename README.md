@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0682-baseball-game](https://github.com/SawaraJC/DSA/tree/main/0682-baseball-game/) | Easy |
 | [0896-monotonic-array](https://github.com/SawaraJC/DSA/tree/main/0896-monotonic-array/) | Easy |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/SawaraJC/DSA/tree/main/1502-can-make-arithmetic-progression-from-sequence/) | Easy |
 | [1822-sign-of-the-product-of-an-array](https://github.com/SawaraJC/DSA/tree/main/1822-sign-of-the-product-of-an-array/) | Easy |
@@ -46,4 +47,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1822-sign-of-the-product-of-an-array](https://github.com/SawaraJC/DSA/tree/main/1822-sign-of-the-product-of-an-array/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0682-baseball-game](https://github.com/SawaraJC/DSA/tree/main/0682-baseball-game/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0682-baseball-game](https://github.com/SawaraJC/DSA/tree/main/0682-baseball-game/) | Easy |
 <!---LeetCode Topics End-->
