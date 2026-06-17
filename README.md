@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0058-length-of-last-word](https://github.com/SawaraJC/DSA/tree/main/0058-length-of-last-word/) | Easy |
 | [0242-valid-anagram](https://github.com/SawaraJC/DSA/tree/main/0242-valid-anagram/) | Easy |
 | [0389-find-the-difference](https://github.com/SawaraJC/DSA/tree/main/0389-find-the-difference/) | Easy |
+| [0709-to-lower-case](https://github.com/SawaraJC/DSA/tree/main/0709-to-lower-case/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/SawaraJC/DSA/tree/main/1768-merge-strings-alternately/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
