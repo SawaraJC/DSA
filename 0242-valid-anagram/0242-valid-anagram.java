@@ -4,20 +4,21 @@ class Solution {
             return false;
         }
         
-        HashMap<Character, Integer> sMap = freqMap(s);
-        HashMap<Character, Integer> tMap = freqMap(t);
-
-        return sMap.equals(tMap);
-    }
-
-    public HashMap<Character, Integer> freqMap(String s){
-        HashMap<Character, Integer> hmap = new HashMap<>();
-
+        int[] charCounts = new int[26];
+        
+        // Increment for s, decrement for t
         for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            hmap.merge(ch, 1, Integer::sum);
+            charCounts[s.charAt(i) - 'a']++;
+            charCounts[t.charAt(i) - 'a']--;
         }
-
-        return hmap;
+        
+        // If it's a true anagram, all counts must be exactly 0
+        for (int count : charCounts) {
+            if (count != 0) {
+                return false;
+            }
+        }
+        
+        return true;
     }
 }
