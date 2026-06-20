@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/SawaraJC/DSA/tree/main/0011-container-with-most-water/) | Medium |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/SawaraJC/DSA/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [1768-merge-strings-alternately](https://github.com/SawaraJC/DSA/tree/main/1768-merge-strings-alternately/) | Easy |
 ## String
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/SawaraJC/DSA/tree/main/0001-two-sum/) | Easy |
+| [0011-container-with-most-water](https://github.com/SawaraJC/DSA/tree/main/0011-container-with-most-water/) | Medium |
 | [0682-baseball-game](https://github.com/SawaraJC/DSA/tree/main/0682-baseball-game/) | Easy |
 | [0896-monotonic-array](https://github.com/SawaraJC/DSA/tree/main/0896-monotonic-array/) | Easy |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/SawaraJC/DSA/tree/main/1502-can-make-arithmetic-progression-from-sequence/) | Easy |
@@ -59,4 +61,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/SawaraJC/DSA/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0682-baseball-game](https://github.com/SawaraJC/DSA/tree/main/0682-baseball-game/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/SawaraJC/DSA/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
