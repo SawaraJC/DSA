@@ -2,22 +2,33 @@ class Solution {
     public int maxArea(int[] height) {
         int i = 0;
         int j = height.length - 1;
+        int max = 0;
+        int product = 1;
 
-        int maxArea = 0;
+        while (i < j){
+            int smallNum = smaller(height[i], height[j]);
+            product = (j-i) * smallNum;
 
-        while (i < j) {
-            int minHeight = Math.min(height[i], height[j]);
-            int currentArea = minHeight * (j - i);
-            maxArea = Math.max(maxArea, currentArea);
-
-            // Move the pointer pointing to the smaller line
-            if (height[i] < height[j]) {
+            if(product > max){
+                max = product;
+            }
+            
+            if (isSmaller(height[i], height[j])){
                 i++;
-            } else {
+            }else {
                 j--;
             }
+            
         }
 
-        return maxArea;
+        return max;
+    }
+
+    public int smaller(int num1, int num2){
+        return (num1 < num2) ? num1 : num2;
+    }
+
+    public boolean isSmaller(int num1, int num2) {
+        return (num1 < num2) ? true : false;
     }
 }
