@@ -29,6 +29,6 @@ class Solution {
     }
 
     public boolean isSmaller(int num1, int num2) {
-        return (num1 < num2) ? true : false;
+        return (num1 < num2);
     }
 }
