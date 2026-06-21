@@ -24,26 +24,61 @@
 // }
 
 
+// class Solution {
+//     public boolean isValidSudoku(char[][] board) {
+
+//         HashSet<String> set = new HashSet<>();
+
+//         for(int r = 0; r < 9; r++) {
+
+//             for(int c = 0; c < 9; c++) {
+
+//                 char val = board[r][c];
+
+//                 if(val == '.') {
+//                     continue;
+//                 }
+
+//                 int box = (r / 3) * 3 + (c / 3);
+
+//                 if(!set.add(val + "r" + r) ||
+//                    !set.add(val + "c" + c) ||
+//                    !set.add(val + "b" + box))
+//                 {
+//                     return false;
+//                 }
+//             }
+//         }
+
+//         return true;
+//     }
+// }
+
+
 class Solution {
     public boolean isValidSudoku(char[][] board) {
 
-        HashSet<String> set = new HashSet<>();
+        HashSet<Integer> set = new HashSet<>();
 
         for(int r = 0; r < 9; r++) {
 
             for(int c = 0; c < 9; c++) {
 
-                char val = board[r][c];
-
-                if(val == '.') {
+                if(board[r][c] == '.') {
                     continue;
                 }
 
+                int num = board[r][c] - '0';
+
                 int box = (r / 3) * 3 + (c / 3);
 
-                if(!set.add(val + "r" + r) ||
-                   !set.add(val + "c" + c) ||
-                   !set.add(val + "b" + box))
+                int rowKey = num * 100 + r;
+                int colKey = 1000 + num * 100 + c;
+                int boxKey = 2000 + num * 100 + box;
+
+                if(!set.add(rowKey) ||
+                   !set.add(colKey) ||
+                   !set.add(boxKey))
                 {
                     return false;
                 }
