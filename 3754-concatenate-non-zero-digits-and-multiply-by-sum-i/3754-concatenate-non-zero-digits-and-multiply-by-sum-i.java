@@ -2,9 +2,9 @@ class Solution {
     public long sumAndMultiply(int n) {
         long res = 0;
         long sum = 0;
-        long place = 1;
+        int place = 1;
 
-        if (n == 0){
+        if(n==0){
             return 0;
         }
 
