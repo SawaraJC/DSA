@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/SawaraJC/DSA/tree/main/0036-valid-sudoku/) | Medium |
 | [0242-valid-anagram](https://github.com/SawaraJC/DSA/tree/main/0242-valid-anagram/) | Easy |
 | [0389-find-the-difference](https://github.com/SawaraJC/DSA/tree/main/0389-find-the-difference/) | Easy |
+| [3731-find-missing-elements](https://github.com/SawaraJC/DSA/tree/main/3731-find-missing-elements/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/SawaraJC/DSA/tree/main/0242-valid-anagram/) | Easy |
 | [0389-find-the-difference](https://github.com/SawaraJC/DSA/tree/main/0389-find-the-difference/) | Easy |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/SawaraJC/DSA/tree/main/1502-can-make-arithmetic-progression-from-sequence/) | Easy |
+| [3731-find-missing-elements](https://github.com/SawaraJC/DSA/tree/main/3731-find-missing-elements/) | Easy |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -62,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0896-monotonic-array](https://github.com/SawaraJC/DSA/tree/main/0896-monotonic-array/) | Easy |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/SawaraJC/DSA/tree/main/1502-can-make-arithmetic-progression-from-sequence/) | Easy |
 | [1822-sign-of-the-product-of-an-array](https://github.com/SawaraJC/DSA/tree/main/1822-sign-of-the-product-of-an-array/) | Easy |
+| [3731-find-missing-elements](https://github.com/SawaraJC/DSA/tree/main/3731-find-missing-elements/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
